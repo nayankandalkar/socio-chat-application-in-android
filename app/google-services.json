@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "109646312580",
+    "project_id": "maruti5",
+    "storage_bucket": "maruti5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109646312580:android:ea835e038fbb7b5f2e3ed1",
+        "android_client_info": {
+          "package_name": "com.example.maruti5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109646312580-8sg57hecfmb3d1v10e6bhie59ea844pa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPojLssSlc9z3T_aEfikUPG9tZaIqKNPg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109646312580-8sg57hecfmb3d1v10e6bhie59ea844pa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

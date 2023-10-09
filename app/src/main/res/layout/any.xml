@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <com.devlomi.circularstatusview.CircularStatusView
+        android:id="@+id/profilephoto"
+        android:layout_width="102dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="10dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView13"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:portion_color="@color/purple_700"
+        app:portion_spacing="5dp"
+        app:portion_width="4dp"
+        app:portions_count="2" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="270dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView14"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/profilephoto"
+        app:layout_constraintEnd_toEndOf="@+id/profilephoto"
+        app:layout_constraintStart_toStartOf="@+id/profilephoto"
+        app:layout_constraintTop_toTopOf="@+id/profilephoto"
+        app:shapeAppearanceOverlay="@style/mayur2"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
